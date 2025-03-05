@@ -16,6 +16,7 @@ add_executable(${PROJECT_NAME}
     ${PROJECT_SOURCE_DIR}/src/font16.c
     ${PROJECT_SOURCE_DIR}/src/font20.c
     ${PROJECT_SOURCE_DIR}/src/font24.c
+    ${PROJECT_SOURCE_DIR}/src/font32.c
     ${PROJECT_SOURCE_DIR}/src/font8.c
     ${PROJECT_SOURCE_DIR}/src/KEY_APP.c
     ${PROJECT_SOURCE_DIR}/src/main.cpp

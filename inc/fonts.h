@@ -40,8 +40,8 @@
 #define __FONTS_H
 
 /* Max size of bitmap will based on a font24 (17x24) */
-#define MAX_HEIGHT_FONT 24
-#define MAX_WIDTH_FONT 17
+#define MAX_HEIGHT_FONT 32
+#define MAX_WIDTH_FONT 20
 #define OFFSET_BITMAP 54
 
 #ifdef __cplusplus
@@ -60,6 +60,7 @@ extern "C"
 
   } sFONT;
 
+  extern sFONT Font32;
   extern sFONT Font24;
   extern sFONT Font20;
   extern sFONT Font16;

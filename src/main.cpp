@@ -70,7 +70,7 @@ void printPiInfo(piInfoFormat_t f)
     if (f == TIME_ONLY)
     {
         strftime(time_str, sizeof(time_str), "%H:%M:%S", timenow);
-        writeLine(time_str, sizeof(time_str), &Font24, 0, 20);
+        writeLine(time_str, sizeof(time_str), &Font32, 0, 32);
     }
     else if (f == FULL_INFO)
     {
